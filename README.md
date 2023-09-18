@@ -1,5 +1,5 @@
 # kubernetes Project
---------------------------------------
+
 ## Overview
 
 [Kubernetes](https://kubernetes.io/docs/concepts/overview/), often abbreviated as K8s, is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. 
@@ -19,9 +19,9 @@ For this project I used an Ubuntu 20.04.6 LTS OS
 - Terraform (v1.5.7)
 - Make sure you have a DockerHub account for pushing the Docker image.
 ----------------------------------------------
-<br>
 
-#### Now, let's get started:
+
+### Now, let's get started:
 
 ### Step 1: 
 Setup a Kubernetes Cluster using KIND. 
@@ -166,7 +166,7 @@ spec:
   type: ClusterIP
 
   selector:
-    app: node-app # This selector matches Pods with the label "app" set to "nodejs-app"
+    app: node-app # This selector matches Pods with the label "app" set to "node-app"
 
   ports:
     - name:  node-app
