@@ -1,0 +1,17 @@
+apiVersion: v1 
+kind: Service 
+
+metadata: 
+  name: nodejs-app-service 
+
+spec: 
+  type: ClusterIP
+
+  selector:
+    app: nodejs-app # This selector matches Pods with the label "app" set to "nodejs-app"
+
+  ports:
+    - name:  nodejs-app
+      protocol: TCP 
+      port: 3000 
+      targetPort: 3000 

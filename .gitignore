@@ -1,0 +1,13 @@
+# Terraform
+.terraform.lock.hcl
+terraform.tfstate
+.terraform
+get_helm.sh
+terraform.tfstate.backup
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+#infracost directory
+.infracost/
