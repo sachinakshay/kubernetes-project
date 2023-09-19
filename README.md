@@ -113,14 +113,15 @@ docker push your-dockerhub-username/express-application
 - You can test your application locally by running: 
 
 ```bash
-docker run -d -p 3000:3000 your-dockerhub-username/express-application
+# You can use any port on the local host e.g 4000 and map it to port 3000 in the container
+docker run -d -p 4000:3000 your-dockerhub-username/express-application
 ```
 
 - Access application from browser at:
 
-Browser: localhost:3000
+Browser: localhost:4000
 
-Terminal: curl localhost:3000
+Terminal: curl localhost:4000
 
 
 ### Step 4
