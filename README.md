@@ -69,11 +69,8 @@ app.listen(port, () => {
 - Install express dependencies needed for the application by running the following:
 
 ```bash
-$ node install express
+$ npm install express
 ```
-- Make sure to have your [package.json](https://docs.npmjs.com/creating-a-package-json-file) file. If not, run ```npm init --yes``` and answer the prompts by entering your details.
-
-
 
 - Also Create a Dockerfile for your Express app.
 ```bash
